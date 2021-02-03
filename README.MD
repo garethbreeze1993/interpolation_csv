@@ -1,14 +1,7 @@
-A simple python script which takes in a file Input in the form of a comma-separated file (CSV) in which rows are 
-    separated by newline characters and the value of each column within a row 
-    is separated by a comma. 
-
-In the ouput the missing values from the input have been interpolated as the average of all 
-non-diagonal neighbouring values. 
-
-Output is in the same form as the input, and have the same number of rows 
-    and columns, but contains no missing values.
+A simple python script which is the solution to the problem described in the coding challenge
 
 To use this tool in the command line navigate to the directory which contains the python file interpolation.py.
+
 Then simply run the command python interpolation.py path_to_csv_file
 
 The result will be a CSV file named the original CSV file plus output.csv

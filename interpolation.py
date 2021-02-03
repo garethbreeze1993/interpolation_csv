@@ -11,8 +11,6 @@ args = parser.parse_args()
 
 if len(sys.argv) == 2:
 
-    print(args.csv)
-
     if not args.csv.endswith('.csv'):
         sys.exit('Please provide a CSV file')
 
